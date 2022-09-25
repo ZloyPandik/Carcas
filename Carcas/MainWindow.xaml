@@ -16,11 +16,12 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <Grid Height="75" Background="#FFBAE3E8">
-                    <Image Width="100" Source="/Resources/photo_2022-02-01_16-11-08.jpg" HorizontalAlignment="Left" Grid.Row="0"/>
-                    <TextBlock TextWrapping="Wrap" Text="Header" HorizontalAlignment="Center" FontSize="30"/>
-                </Grid>
+            <Image Width="100" Source="/Resources/photo_2022-02-01_16-11-08.jpg" HorizontalAlignment="Left" Grid.Row="0"/>
+            <TextBlock TextWrapping="Wrap" Text="Header" HorizontalAlignment="Center" FontSize="30"/>
+            <Button Content="Back" Name="BtnBack" HorizontalAlignment="Left" Margin="689,5,0,0" VerticalAlignment="Center" Background="#FF94B820" FontSize="30" RenderTransformOrigin="-0.084,0.382" Click="BtnBack_Click"/>
+        </Grid>
         <Grid Height="100" Background="#FF445C34" Grid.Row="2"/>
-        <Frame Name="MainFrame" Grid.Row="1" ContentRendered="MainFrame_ContentRendered"/>
+        <Frame NavigationUIVisibility="Hidden" Name="MainFrame" Grid.Row="1" ContentRendered="MainFrame_ContentRendered"/>
 
 
     </Grid>

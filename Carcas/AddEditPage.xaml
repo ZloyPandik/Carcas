@@ -9,7 +9,7 @@
       Title="AddEditPage">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Заебись" VerticalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="All Good" VerticalAlignment="Center"/>
 
     </Grid>
 </Page>
